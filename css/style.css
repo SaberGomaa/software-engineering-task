@@ -1,0 +1,89 @@
+*
+{
+    text-transform: capitalize;
+    line-height: 1;
+}
+body
+{
+    background-color:#eee;
+    margin: 0;
+}
+.header
+{
+    margin-top:-20px ;
+    text-align: center;
+    background-color: white;
+    padding:10px;
+}
+.header h1
+{
+    font-weight: 700;
+}
+.nav
+{
+    background-color: black;
+    padding : 5px;
+}
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px ;
+}
+.nav a:last-child
+{
+    float: right;
+}
+
+.container
+{
+    padding: 10px;
+}
+.col-70
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    width: 75%;
+    float: left;
+}
+.col-70 .first
+{
+    background-color:#eee;
+    width:100%
+}
+.col-70 .first div
+{
+    width :calc(100% - 10px);
+    background-color :rgb(154, 153, 153);
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.col-30
+{
+    background-color: #eee;
+    width: 23%;
+    float: right;
+    padding:  10px 0;
+}
+.col-30 .last div ,.col-30 .first div 
+{
+    width :calc(100% - 10px);
+    background-color :rgb(154, 153, 153);
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.clear
+{
+    clear: both;
+}
+.footer
+{
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+    padding: 15px;
+}
